@@ -161,13 +161,13 @@
     </div>
       
         <p>指定包名启动monkey测试</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span> adb shell monkey -p your.package.name -v 500</div></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb shell monkey -p your.package.name -v 500</span></div></pre></td></tr></table></figure>
 <p>seed <strong>回归测试</strong> 用的到</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span> adb shell monkey -p your.package.name -s 100 -v 500</div></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb shell monkey -p your.package.name <span class="_">-s</span> 100 -v 500</span></div></pre></td></tr></table></figure>
 <p>指定执行速度</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span> adb shell monkey -p your.package.name --throttle 1000 -v 500 //1s执行1次</div></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb shell monkey -p your.package.name --throttle 1000 -v 500 //1s执行1次</span></div></pre></td></tr></table></figure>
 <p>调整触摸事件的百分比 </p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span> adb shell monkey -p your.package.name --pct-touch 100 -v 100</div></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> adb shell monkey -p your.package.name --pct-touch 100 -v 100</span></div></pre></td></tr></table></figure>
 
       
 	</div>
