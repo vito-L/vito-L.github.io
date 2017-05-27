@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://vito-l.github.io/"/>
-  <updated>2017-05-26T21:17:14.000Z</updated>
+  <updated>2017-05-27T01:55:51.000Z</updated>
   <id>https://vito-l.github.io/</id>
   
   <author>
@@ -20,12 +20,12 @@
     <link href="https://vito-l.github.io/2017/05/27/Mac%E4%B8%8B%E9%85%8D%E7%BD%AEMonkeyRunner%E6%80%BB%E7%BB%93/"/>
     <id>https://vito-l.github.io/2017/05/27/Mac下配置MonkeyRunner总结/</id>
     <published>2017-05-26T20:12:42.000Z</published>
-    <updated>2017-05-26T21:17:14.000Z</updated>
+    <updated>2017-05-27T01:55:51.000Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;配置Java环境变量&lt;/p&gt;
-&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;bash&quot;&gt; /usr/libexec/java_home //找到JavaHome&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;bash&quot;&gt; sudo vim /etc/profile&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;//添加如下&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;JAVA_HOME=&quot;/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home&quot;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;export JAVA_HOME&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;CLASS_PATH=&quot;$JAVA_HOME/lib&quot;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;PATH=&quot;.;$PATH:$JAVA_HOME/bin&quot;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;//使更改生效&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;bash&quot;&gt; &lt;span class=&quot;built_in&quot;&gt;source&lt;/span&gt; /etc/profile&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;9&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ /usr/libexec/java_home //找到JavaHome&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ sudo vim /etc/profile&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;//添加如下&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;JAVA_HOME=&lt;span class=&quot;string&quot;&gt;&quot;/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home&quot;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;export&lt;/span&gt; JAVA_HOME&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;CLASS_PATH=&lt;span class=&quot;string&quot;&gt;&quot;&lt;span class=&quot;variable&quot;&gt;$JAVA_HOME&lt;/span&gt;/lib&quot;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;PATH=&lt;span class=&quot;string&quot;&gt;&quot;.;&lt;span class=&quot;variable&quot;&gt;$PATH&lt;/span&gt;:&lt;span class=&quot;variable&quot;&gt;$JAVA_HOME&lt;/span&gt;/bin&quot;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;//使更改生效&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ &lt;span class=&quot;built_in&quot;&gt;source&lt;/span&gt; /etc/profile&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
@@ -41,14 +41,14 @@
     <link href="https://vito-l.github.io/2017/05/27/Monkey%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95/"/>
     <id>https://vito-l.github.io/2017/05/27/Monkey压力测试/</id>
     <published>2017-05-26T20:09:56.000Z</published>
-    <updated>2017-05-26T20:47:03.000Z</updated>
+    <updated>2017-05-27T01:56:26.000Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;指定包名启动monkey测试&lt;/p&gt;
-&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;$&lt;/span&gt; adb shell monkey -p your.package.name -v 500&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ adb shell monkey -p your.package.name -v 500&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;seed &lt;strong&gt;回归测试&lt;/strong&gt; 用的到&lt;/p&gt;
-&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;$&lt;/span&gt; adb shell monkey -p your.package.name -s 100 -v 500&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ adb shell monkey -p your.package.name &lt;span class=&quot;_&quot;&gt;-s&lt;/span&gt; 100 -v 500&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
