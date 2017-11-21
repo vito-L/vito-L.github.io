@@ -1,0 +1,100 @@
+body {
+    position: relative;
+}
+
+.navbar {
+    background-color: #1FAF8E;
+}
+
+a.nav-link:link {
+    color: white;
+}
+a.nav-link:visited {
+    color: white;
+}
+
+.div-header {
+    text-align: center;
+    margin-left: 33%;
+    margin-right: 33%;
+    padding-top: 70px;
+}
+
+.div-header p {
+    font-size: 50px;
+    font-family: "Microsoft YaHei";
+}
+
+.div-body {
+    padding-top: 30px;
+    margin-left: 0;
+    /*margin-right: auto;*/
+}
+
+.div-body p {
+    line-height: 30px;
+}
+
+.div-img {
+    width: 20px;
+    height: 35px;
+}
+
+.div-zw span {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.div-gz span {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.div-xm span {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.div-skill span {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.div-body-right {
+    background-color: #EAF3EE;
+    border-color: #C4E2D8;
+    border-style:solid;
+    border-width:2px;
+}
+
+.div-body-right-contact {
+    margin-top: 50px;
+}
+
+.div-body-right-link {
+    margin-top: 50px;
+}
+
+.div-body-right-email {
+    margin-top: 50px;
+}
+
+.div-body-right-other {
+    margin-top: 50px;
+}
+
+.progress {
+    float: right;
+    margin-top: 6px;
+    margin-left: 10px;
+    /*margin-bottom: auto;*/
+    width: 70%;
+}
+
+a.footer-a:link {
+    color: white;
+}
+
+a.footer-a:visited {
+    color: white;
+}
