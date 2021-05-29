@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Blog</title>
   
-  
+  <subtitle>My Github Blog</subtitle>
   <link href="https://vito-l.github.io/atom.xml" rel="self"/>
   
   <link href="https://vito-l.github.io/"/>
@@ -10,7 +10,7 @@
   <id>https://vito-l.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Vito</name>
     
   </author>
   
